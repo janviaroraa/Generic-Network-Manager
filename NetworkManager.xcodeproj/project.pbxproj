@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1236F3712AAF5DE800F9FD23 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1236F3702AAF5DE800F9FD23 /* EndPoint.swift */; };
+		1236F3732AAF5EE800F9FD23 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1236F3722AAF5EE800F9FD23 /* NetworkManager.swift */; };
+		1236F3752AAF654B00F9FD23 /* JokesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1236F3742AAF654B00F9FD23 /* JokesResponse.swift */; };
+		1236F3772AAF687A00F9FD23 /* GetJokesEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1236F3762AAF687A00F9FD23 /* GetJokesEndpoint.swift */; };
 		12A2E8BB2AAF571D00104EEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2E8BA2AAF571D00104EEF /* AppDelegate.swift */; };
 		12A2E8BD2AAF571D00104EEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2E8BC2AAF571D00104EEF /* SceneDelegate.swift */; };
 		12A2E8BF2AAF571D00104EEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2E8BE2AAF571D00104EEF /* ViewController.swift */; };
 		12A2E8C22AAF571D00104EEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A2E8C02AAF571D00104EEF /* Main.storyboard */; };
 		12A2E8C42AAF571F00104EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A2E8C32AAF571F00104EEF /* Assets.xcassets */; };
 		12A2E8C72AAF571F00104EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A2E8C52AAF571F00104EEF /* LaunchScreen.storyboard */; };
+		12A2E8CF2AAF577700104EEF /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2E8CE2AAF577700104EEF /* HTTPMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1236F3702AAF5DE800F9FD23 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		1236F3722AAF5EE800F9FD23 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1236F3742AAF654B00F9FD23 /* JokesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesResponse.swift; sourceTree = "<group>"; };
+		1236F3762AAF687A00F9FD23 /* GetJokesEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetJokesEndpoint.swift; sourceTree = "<group>"; };
 		12A2E8B72AAF571D00104EEF /* NetworkManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A2E8BA2AAF571D00104EEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12A2E8BC2AAF571D00104EEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,7 @@
 		12A2E8C32AAF571F00104EEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12A2E8C62AAF571F00104EEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12A2E8C82AAF571F00104EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A2E8CE2AAF577700104EEF /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				12A2E8BA2AAF571D00104EEF /* AppDelegate.swift */,
 				12A2E8BC2AAF571D00104EEF /* SceneDelegate.swift */,
 				12A2E8BE2AAF571D00104EEF /* ViewController.swift */,
+				12A2E8CE2AAF577700104EEF /* HTTPMethod.swift */,
+				1236F3702AAF5DE800F9FD23 /* EndPoint.swift */,
+				1236F3722AAF5EE800F9FD23 /* NetworkManager.swift */,
+				1236F3742AAF654B00F9FD23 /* JokesResponse.swift */,
+				1236F3762AAF687A00F9FD23 /* GetJokesEndpoint.swift */,
 				12A2E8C02AAF571D00104EEF /* Main.storyboard */,
 				12A2E8C32AAF571F00104EEF /* Assets.xcassets */,
 				12A2E8C52AAF571F00104EEF /* LaunchScreen.storyboard */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1236F3732AAF5EE800F9FD23 /* NetworkManager.swift in Sources */,
+				12A2E8CF2AAF577700104EEF /* HTTPMethod.swift in Sources */,
 				12A2E8BF2AAF571D00104EEF /* ViewController.swift in Sources */,
+				1236F3712AAF5DE800F9FD23 /* EndPoint.swift in Sources */,
+				1236F3752AAF654B00F9FD23 /* JokesResponse.swift in Sources */,
 				12A2E8BB2AAF571D00104EEF /* AppDelegate.swift in Sources */,
+				1236F3772AAF687A00F9FD23 /* GetJokesEndpoint.swift in Sources */,
 				12A2E8BD2AAF571D00104EEF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
